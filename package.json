@@ -1,0 +1,37 @@
+{
+    "name": "eel2",
+    "displayName": "EEL2",
+    "description": "VSCode support for Cockos' EEL2 language",
+    "version": "1.0.0",
+    "author": "steeelydan",
+    "engines": {
+        "vscode": "^1.77.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "eel",
+                "aliases": [
+                    "EEL",
+                    "eel"
+                ],
+                "extensions": [
+                    ".jsfx",
+                    ".eel2",
+                    ".eel"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "eel",
+                "scopeName": "source.EEL",
+                "path": "./syntaxes/eel2.tmLanguage.json"
+            }
+        ]
+    }
+}
