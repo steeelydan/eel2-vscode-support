@@ -216,6 +216,11 @@
             "comment": "Functions: other"
         },
         {
+            "match": "(beat_position|ext_midi_bus|ext_nodenorm|ext_noinit|ext_tail_size|gfx_a|gfx_a2|gfx_b|gfx_clear|gfx_dest|gfx_ext_flags|gfx_ext_retina|gfx_g|gfx_h|gfx_mode|gfx_r|gfx_texth|gfx_w|gfx_x|gfx_y|midi_bus|mouse_cap|mouse_hwheel|mouse_wheel|mouse_x|mouse_y|num_ch|pdc_bot_ch|pdc_delay|pdc_midi|pdc_top_ch|play_position|play_state|samplesblock|slider\\d+\\b|spl\\d+\\b|srate|tempo|trigger|ts_denom|ts_num|#dbg_desc)",
+            "name": "support.constant.color",
+            "comment": "System variables"
+        },
+        {
             "match": "gfx_(a|b|clear|dest|ext_retina|g|h|mode|r|texth|w|x|y)\\b",
             "name": "support.variable.graphics.EEL",
             "comment": "Variables: graphics"
