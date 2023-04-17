@@ -2,7 +2,7 @@
     "name": "eel2",
     "displayName": "EEL2",
     "description": "VSCode support for Cockos' EEL2 language",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "steeelydan",
     "engines": {
         "vscode": "^1.77.0"
@@ -31,6 +31,12 @@
                 "language": "eel",
                 "scopeName": "source.EEL",
                 "path": "./syntaxes/eel2.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "eel",
+                "path": "./snippets/snippets.json"
             }
         ]
     }

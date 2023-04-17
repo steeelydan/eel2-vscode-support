@@ -8,7 +8,8 @@ The TextMate grammar is adapted from GavinRay97's extension: https://github.com/
 
 ## Installation
 
-Copy `package.json`, `language-configuration.json` and `syntaxes/` into a new dir in `<USERDIR>/.vscode/extensions`
+-   Collect files with `./dish.sh`
+-   Copy `dist/` content into a new dir in `<USERDIR>/.vscode/extensions`
 
 ## EEL2 docs
 

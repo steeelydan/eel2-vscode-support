@@ -1,0 +1,212 @@
+{
+    "beat_position": {
+        "prefix": "beat_position",
+        "body": ["beat_position"],
+        "description": "System variable `beat_position`"
+    },
+    "ext_midi_bus": {
+        "prefix": "ext_midi_bus",
+        "body": ["ext_midi_bus"],
+        "description": "System variable `ext_midi_bus`"
+    },
+    "ext_nodenorm": {
+        "prefix": "ext_nodenorm",
+        "body": ["ext_nodenorm"],
+        "description": "System variable `ext_nodenorm`"
+    },
+    "ext_noinit": {
+        "prefix": "ext_noinit",
+        "body": ["ext_noinit"],
+        "description": "System variable `ext_noinit`"
+    },
+    "ext_tail_size": {
+        "prefix": "ext_tail_size",
+        "body": ["ext_tail_size"],
+        "description": "System variable `ext_tail_size`"
+    },
+    "gfx_a": {
+        "prefix": "gfx_a",
+        "body": ["gfx_a"],
+        "description": "System variable `gfx_a`"
+    },
+    "gfx_a2": {
+        "prefix": "gfx_a2",
+        "body": ["gfx_a2"],
+        "description": "System variable `gfx_a2`"
+    },
+    "gfx_b": {
+        "prefix": "gfx_b",
+        "body": ["gfx_b"],
+        "description": "System variable `gfx_b`"
+    },
+    "gfx_clear": {
+        "prefix": "gfx_clear",
+        "body": ["gfx_clear"],
+        "description": "System variable `gfx_clear`"
+    },
+    "gfx_dest": {
+        "prefix": "gfx_dest",
+        "body": ["gfx_dest"],
+        "description": "System variable `gfx_dest`"
+    },
+    "gfx_ext_flags": {
+        "prefix": "gfx_ext_flags",
+        "body": ["gfx_ext_flags"],
+        "description": "System variable `gfx_ext_flags`"
+    },
+    "gfx_ext_retina": {
+        "prefix": "gfx_ext_retina",
+        "body": ["gfx_ext_retina"],
+        "description": "System variable `gfx_ext_retina`"
+    },
+    "gfx_g": {
+        "prefix": "gfx_g",
+        "body": ["gfx_g"],
+        "description": "System variable `gfx_g`"
+    },
+    "gfx_h": {
+        "prefix": "gfx_h",
+        "body": ["gfx_h"],
+        "description": "System variable `gfx_h`"
+    },
+    "gfx_mode": {
+        "prefix": "gfx_mode",
+        "body": ["gfx_mode"],
+        "description": "System variable `gfx_mode`"
+    },
+    "gfx_r": {
+        "prefix": "gfx_r",
+        "body": ["gfx_r"],
+        "description": "System variable `gfx_r`"
+    },
+    "gfx_texth": {
+        "prefix": "gfx_texth",
+        "body": ["gfx_texth"],
+        "description": "System variable `gfx_texth`"
+    },
+    "gfx_w": {
+        "prefix": "gfx_w",
+        "body": ["gfx_w"],
+        "description": "System variable `gfx_w`"
+    },
+    "gfx_x": {
+        "prefix": "gfx_x",
+        "body": ["gfx_x"],
+        "description": "System variable `gfx_x`"
+    },
+    "gfx_y": {
+        "prefix": "gfx_y",
+        "body": ["gfx_y"],
+        "description": "System variable `gfx_y`"
+    },
+    "midi_bus": {
+        "prefix": "midi_bus",
+        "body": ["midi_bus"],
+        "description": "System variable `midi_bus`"
+    },
+    "mouse_cap": {
+        "prefix": "mouse_cap",
+        "body": ["mouse_cap"],
+        "description": "System variable `mouse_cap`"
+    },
+    "mouse_hwheel": {
+        "prefix": "mouse_hwheel",
+        "body": ["mouse_hwheel"],
+        "description": "System variable `mouse_hwheel`"
+    },
+    "mouse_wheel": {
+        "prefix": "mouse_wheel",
+        "body": ["mouse_wheel"],
+        "description": "System variable `mouse_wheel`"
+    },
+    "mouse_x": {
+        "prefix": "mouse_x",
+        "body": ["mouse_x"],
+        "description": "System variable `mouse_x`"
+    },
+    "mouse_y": {
+        "prefix": "mouse_y",
+        "body": ["mouse_y"],
+        "description": "System variable `mouse_y`"
+    },
+    "num_ch": {
+        "prefix": "num_ch",
+        "body": ["num_ch"],
+        "description": "System variable `num_ch`"
+    },
+    "pdc_bot_ch": {
+        "prefix": "pdc_bot_ch",
+        "body": ["pdc_bot_ch"],
+        "description": "System variable `pdc_bot_ch`"
+    },
+    "pdc_delay": {
+        "prefix": "pdc_delay",
+        "body": ["pdc_delay"],
+        "description": "System variable `pdc_delay`"
+    },
+    "pdc_midi": {
+        "prefix": "pdc_midi",
+        "body": ["pdc_midi"],
+        "description": "System variable `pdc_midi`"
+    },
+    "pdc_top_ch": {
+        "prefix": "pdc_top_ch",
+        "body": ["pdc_top_ch"],
+        "description": "System variable `pdc_top_ch`"
+    },
+    "play_position": {
+        "prefix": "play_position",
+        "body": ["play_position"],
+        "description": "System variable `play_position`"
+    },
+    "play_state": {
+        "prefix": "play_state",
+        "body": ["play_state"],
+        "description": "System variable `play_state`"
+    },
+    "samplesblock": {
+        "prefix": "samplesblock",
+        "body": ["samplesblock"],
+        "description": "System variable `samplesblock`"
+    },
+    "sliderd+\b": {
+        "prefix": "sliderd+\b",
+        "body": ["sliderd+\b"],
+        "description": "System variable `sliderd+\b`"
+    },
+    "spld+\b": {
+        "prefix": "spld+\b",
+        "body": ["spld+\b"],
+        "description": "System variable `spld+\b`"
+    },
+    "srate": {
+        "prefix": "srate",
+        "body": ["srate"],
+        "description": "System variable `srate`"
+    },
+    "tempo": {
+        "prefix": "tempo",
+        "body": ["tempo"],
+        "description": "System variable `tempo`"
+    },
+    "trigger": {
+        "prefix": "trigger",
+        "body": ["trigger"],
+        "description": "System variable `trigger`"
+    },
+    "ts_denom": {
+        "prefix": "ts_denom",
+        "body": ["ts_denom"],
+        "description": "System variable `ts_denom`"
+    },
+    "ts_num": {
+        "prefix": "ts_num",
+        "body": ["ts_num"],
+        "description": "System variable `ts_num`"
+    },
+    "#dbg_desc": {
+        "prefix": "#dbg_desc",
+        "body": ["#dbg_desc"],
+        "description": "System variable `#dbg_desc`"
+    }
+}
