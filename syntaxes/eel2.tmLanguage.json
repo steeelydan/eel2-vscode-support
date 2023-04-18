@@ -5,7 +5,7 @@
     "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
     "patterns": [
         {
-            "begin": "^\\s*//",
+            "begin": "//",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.definition.comment.EEL"
@@ -22,7 +22,7 @@
             "comment": "Comment: single line"
         },
         {
-            "begin": "^\\s?/\\*",
+            "begin": "/\\*",
             "captures": {
                 "0": {
                     "name": "punctuation.definition.comment.EEL"
@@ -31,6 +31,11 @@
             "end": "\\*/",
             "name": "comment.block.EEL",
             "comment": "Comment: block"
+        },
+        {
+            "match": "(beat_position|ext_midi_bus|ext_nodenorm|ext_noinit|ext_tail_size|gfx_a|gfx_a2|gfx_b|gfx_clear|gfx_dest|gfx_ext_flags|gfx_ext_retina|gfx_g|gfx_h|gfx_mode|gfx_r|gfx_texth|gfx_w|gfx_x|gfx_y|midi_bus|mouse_cap|mouse_hwheel|mouse_wheel|mouse_x|mouse_y|num_ch|pdc_bot_ch|pdc_delay|pdc_midi|pdc_top_ch|play_position|play_state|samplesblock|slider\\d+\\b|spl\\d+\\b|srate|tempo|trigger|ts_denom|ts_num|#dbg_desc|\\$pi|\\$phi|\\$e|in_pin:|out_pin:|desc:|tags:|version:|author:|changelog:|license:|provides:|about:|options:)",
+            "name": "support.constant.color",
+            "comment": "System variables"
         },
         {
             "begin": "\"",
@@ -57,13 +62,13 @@
             "comment": "Double quote strings"
         },
         {
-            "begin": "'",
+            "begin": "\\s'",
             "beginCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.begin.EEL"
                 }
             },
-            "end": "'",
+            "end": "'\\",
             "endCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.end.EEL"
@@ -124,30 +129,8 @@
             "comment": "Functions: user definition"
         },
         {
-            "begin": "(global)|(instance)|(local)\\s*(?=s*\\(?)",
-            "beginCaptures": {
-                "1": {
-                    "name": "storage.modifier.local.EEL"
-                },
-                "2": {
-                    "name": "storage.modifier.global.EEL"
-                },
-                "3": {
-                    "name": "storage.modifier.instance.EEL"
-                }
-            },
-            "end": "(\\))",
-            "endCaptures": {
-                "1": {
-                    "name": "punctuation.mark.parentheses.function.definition.EEL"
-                }
-            },
-            "name": "meta.function.EEL",
-            "patterns": [
-                {
-                    "include": "#function_parameters"
-                }
-            ],
+            "match": "global|instance|local",
+            "name": "storage.modifier.global.EEL",
             "comment": "Functions: modifiers"
         },
         {
@@ -216,11 +199,6 @@
             "comment": "Functions: other"
         },
         {
-            "match": "(beat_position|ext_midi_bus|ext_nodenorm|ext_noinit|ext_tail_size|gfx_a|gfx_a2|gfx_b|gfx_clear|gfx_dest|gfx_ext_flags|gfx_ext_retina|gfx_g|gfx_h|gfx_mode|gfx_r|gfx_texth|gfx_w|gfx_x|gfx_y|midi_bus|mouse_cap|mouse_hwheel|mouse_wheel|mouse_x|mouse_y|num_ch|pdc_bot_ch|pdc_delay|pdc_midi|pdc_top_ch|play_position|play_state|samplesblock|slider\\d+\\b|spl\\d+\\b|srate|tempo|trigger|ts_denom|ts_num|#dbg_desc)",
-            "name": "support.constant.color",
-            "comment": "System variables"
-        },
-        {
             "match": "gfx_(a|b|clear|dest|ext_retina|g|h|mode|r|texth|w|x|y)\\b",
             "name": "support.variable.graphics.EEL",
             "comment": "Variables: graphics"
@@ -284,7 +262,7 @@
             "comment": "Miscellaneous punctuation marks"
         },
         {
-            "match": "((\\$|0)(x|X)[0-9a-fA-F]*)|([0-9]+(\\.)?[0-9]*)|(\\$'.')|(\\$~\\d)|(\\$pi)",
+            "match": "((\\$|0)(x|X)[0-9a-fA-F]*)|([0-9]+(\\.)?[0-9]*)|(\\$'.')|(\\$~\\d)",
             "name": "constant.numeric.EEL",
             "captures": {
                 "5": {

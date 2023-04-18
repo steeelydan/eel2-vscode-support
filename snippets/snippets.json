@@ -208,5 +208,80 @@
         "prefix": "#dbg_desc",
         "body": ["#dbg_desc"],
         "description": "System variable `#dbg_desc`"
+    },
+    "$pi": {
+        "prefix": "$pi",
+        "body": ["$pi"],
+        "description": "System constant `$pi`"
+    },
+    "$phi": {
+        "prefix": "$phi",
+        "body": ["$phi"],
+        "description": "System constant `$phi`"
+    },
+    "$e": {
+        "prefix": "$e",
+        "body": ["$e"],
+        "description": "System constant `$e`"
+    },
+    "in_pin:": {
+        "prefix": "in_pin:",
+        "body": ["in_pin:"],
+        "description": "System declaration `in_pin:`"
+    },
+    "out_pin:": {
+        "prefix": "out_pin:",
+        "body": ["out_pin:"],
+        "description": "System declaration `out_pin:`"
+    },
+    "desc:": {
+        "prefix": "desc:",
+        "body": ["desc:"],
+        "description": "System declaration `desc:`"
+    },
+    "tags:": {
+        "prefix": "tags:",
+        "body": ["tags:"],
+        "description": "System declaration `tags:`"
+    },
+    "version:": {
+        "prefix": "version:",
+        "body": ["version:"],
+        "description": "System declaration `version:`"
+    },
+    "author:": {
+        "prefix": "author:",
+        "body": ["author:"],
+        "description": "System declaration `author:`"
+    },
+    "changelog:": {
+        "prefix": "changelog:",
+        "body": ["changelog:"],
+        "description": "System declaration `changelog:`"
+    },
+    "license:": {
+        "prefix": "license:",
+        "body": ["license:"],
+        "description": "System declaration `license:`"
+    },
+    "provides:": {
+        "prefix": "provides:",
+        "body": ["provides:"],
+        "description": "System declaration `provides:`"
+    },
+    "about:": {
+        "prefix": "about:",
+        "body": ["about:"],
+        "description": "System declaration `about:`"
+    },
+    "options:": {
+        "prefix": "options:",
+        "body": ["options:"],
+        "description": "System declaration `options:`"
+    },
+    "import": {
+        "prefix": "import",
+        "body": ["import"],
+        "description": "Storage modifier `import`"
     }
 }
