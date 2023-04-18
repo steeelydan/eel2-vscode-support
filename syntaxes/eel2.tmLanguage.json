@@ -68,7 +68,7 @@
                     "name": "punctuation.definition.string.begin.EEL"
                 }
             },
-            "end": "'\\",
+            "end": "'\\s",
             "endCaptures": {
                 "0": {
                     "name": "punctuation.definition.string.end.EEL"
@@ -129,7 +129,7 @@
             "comment": "Functions: user definition"
         },
         {
-            "match": "global|instance|local",
+            "match": "(global|instance|local)",
             "name": "storage.modifier.global.EEL",
             "comment": "Functions: modifiers"
         },

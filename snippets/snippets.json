@@ -211,17 +211,17 @@
     },
     "$pi": {
         "prefix": "$pi",
-        "body": ["$pi"],
+        "body": ["\\$pi"],
         "description": "System constant `$pi`"
     },
     "$phi": {
         "prefix": "$phi",
-        "body": ["$phi"],
+        "body": ["\\$phi"],
         "description": "System constant `$phi`"
     },
     "$e": {
         "prefix": "$e",
-        "body": ["$e"],
+        "body": ["\\$e"],
         "description": "System constant `$e`"
     },
     "in_pin:": {
