@@ -2,7 +2,8 @@
     "name": "eel2",
     "displayName": "EEL2",
     "description": "VSCode support for Cockos' EEL2 language",
-    "version": "1.0.3",
+    "version": "1.0.4",
+    "publisher": "steeelydan",
     "author": "steeelydan",
     "engines": {
         "vscode": "^1.77.0"
