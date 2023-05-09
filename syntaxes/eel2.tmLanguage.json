@@ -164,7 +164,7 @@
             "comment": "Control: looping"
         },
         {
-            "match": "(abs|acos|asin|atan|atan2|ceil|cos|exp|floor|invsqrt|log|log10|max|min|rand|sign|sin|spl|sqr|sqrt|tan)(?=(\\s|(\n?|\n))*\\()",
+            "match": "(sin|cos|tan|asin|acos|atan|atan2|sqr|sqrt|pow|exp|log|log10|abs|min|max|sign|rand|floor|ceil|invsqrt)(?=(\\s|(\n?|\n))*\\()",
             "name": "support.function.math.EEL",
             "comment": "Functions: basic math"
         },

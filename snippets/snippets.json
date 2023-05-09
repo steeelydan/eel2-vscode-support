@@ -283,5 +283,110 @@
         "prefix": "import",
         "body": ["import"],
         "description": "Storage modifier `import`"
+    },
+    "Math: Sine": {
+        "prefix": "sin",
+        "body": ["sin(${1:angle})"],
+        "description": "returns the Sine of the angle specified (specified in radians -- to convert from degrees to radians, multiply by $pi/180, or 0.017453)"
+    },
+    "Math: Cosine": {
+        "prefix": "cos",
+        "body": ["cos(${1:angle})"],
+        "description": "returns the Cosine of the angle specified (specified in radians)"
+    },
+    "Math: Tangent": {
+        "prefix": "tan",
+        "body": ["tan(${1:angle})"],
+        "description": "returns the Tangent of the angle specified (specified in radians)"
+    },
+    "Math: Arc Sine": {
+        "prefix": "asin",
+        "body": ["asin(${1:x})"],
+        "description": "returns the Arc Sine of the value specified (return value is in radians)"
+    },
+    "Math: Arc Cosine": {
+        "prefix": "acos",
+        "body": ["acos(${1:x})"],
+        "description": "returns the Arc Cosine of the value specified (return value is in radians)"
+    },
+    "Math: Arc Tangent": {
+        "prefix": "atan",
+        "body": ["atan(${1:x})"],
+        "description": "returns the Arc Tangent of the value specified (return value is in radians)"
+    },
+    "Math: Arc Tangent 2": {
+        "prefix": "atan2",
+        "body": ["atan2(${1:x}, ${2:y})"],
+        "description": "returns the Arc Tangent of x divided by y (return value is in radians)"
+    },
+    "Math: Square": {
+        "prefix": "sqr",
+        "body": ["sqr(${1:x})"],
+        "description": "returns the square of the parameter (similar to x*x, though only evaluating x once)"
+    },
+    "Math: Square Root": {
+        "prefix": "sqrt",
+        "body": ["sqrt(${1:x})"],
+        "description": "returns the square root of the parameter"
+    },
+    "Math: Power": {
+        "prefix": "pow",
+        "body": ["pow(${1:x}, ${2:y})"],
+        "description": "returns the first parameter raised to the second parameter-th power. Identical in behavior and performance to the ^ operator"
+    },
+    "Math: Natural Exponential": {
+        "prefix": "exp",
+        "body": ["exp(${1:x})"],
+        "description": "returns the number e (approx 2.718) raised to the parameter-th power. This function is significantly faster than pow() or the ^ operator"
+    },
+    "Math: Natural Logarithm": {
+        "prefix": "log",
+        "body": ["log(${1:x})"],
+        "description": "returns the natural logarithm (base e) of the parameter"
+    },
+    "Math: Base 10 Logarithm": {
+        "prefix": "log10",
+        "body": ["log10(${1:x})"],
+        "description": "returns the logarithm (base 10) of the parameter"
+    },
+    "Math: Absolute Value": {
+        "prefix": "abs",
+        "body": ["abs(${1:x})"],
+        "description": "returns the absolute value of the parameter"
+    },
+    "Math: Minimum": {
+        "prefix": "min",
+        "body": ["min(${1:x}, ${2:y})"],
+        "description": "returns the minimum value of the two parameters"
+    },
+    "Math: Maximum": {
+        "prefix": "max",
+        "body": ["max(${1:x}, ${2:y})"],
+        "description": "returns the maximum value of the two parameters"
+    },
+    "Math: Sign": {
+        "prefix": "sign",
+        "body": ["sign(${1:x}"],
+        "description": "returns the sign of the parameter (-1, 0, or 1)"
+    },
+    "Math: Random": {
+        "prefix": "rand",
+        "body": ["rand(${1:x}"],
+        "description": "returns a psuedorandom number between 0 and the parameter"
+    },
+    "Math: Floor": {
+        "prefix": "floor",
+        "body": ["floor(${1:x}"],
+        "description": "rounds the value to the lowest integer possible (floor(3.9)==3, floor(-3.1)==-4)"
+    },
+    "Math: Ceiling": {
+        "prefix": "ceil",
+        "body": ["ceil(${1:x}"],
+        "description": "rounds the value to the highest integer possible (ceil(3.1)==4, ceil(-3.9)==-3)"
+    },
+    "Math: Fast Inverse Square Root": {
+        "prefix": "invsqrt",
+        "body": ["invsqrt(${1:x}"],
+        "description": "returns a fast inverse square root (1/sqrt(x)) approximation of the parameter"
     }
 }
