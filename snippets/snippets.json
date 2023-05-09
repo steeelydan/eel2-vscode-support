@@ -366,27 +366,27 @@
     },
     "Math: Sign": {
         "prefix": "sign",
-        "body": ["sign(${1:x}"],
+        "body": ["sign(${1:x})"],
         "description": "returns the sign of the parameter (-1, 0, or 1)"
     },
     "Math: Random": {
         "prefix": "rand",
-        "body": ["rand(${1:x}"],
+        "body": ["rand(${1:x})"],
         "description": "returns a psuedorandom number between 0 and the parameter"
     },
     "Math: Floor": {
         "prefix": "floor",
-        "body": ["floor(${1:x}"],
+        "body": ["floor(${1:x})"],
         "description": "rounds the value to the lowest integer possible (floor(3.9)==3, floor(-3.1)==-4)"
     },
     "Math: Ceiling": {
         "prefix": "ceil",
-        "body": ["ceil(${1:x}"],
+        "body": ["ceil(${1:x})"],
         "description": "rounds the value to the highest integer possible (ceil(3.1)==4, ceil(-3.9)==-3)"
     },
     "Math: Fast Inverse Square Root": {
         "prefix": "invsqrt",
-        "body": ["invsqrt(${1:x}"],
+        "body": ["invsqrt(${1:x})"],
         "description": "returns a fast inverse square root (1/sqrt(x)) approximation of the parameter"
     }
 }
