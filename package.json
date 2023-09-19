@@ -2,22 +2,34 @@
     "name": "eel2",
     "displayName": "EEL2",
     "description": "VSCode support for Cockos' EEL2 language",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "publisher": "steeelydan",
     "author": "steeelydan",
+    "license": "gpl-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/steeelydan/eel2-vscode-support"
+    },
     "engines": {
         "vscode": "^1.77.0"
     },
     "categories": [
         "Programming Languages"
     ],
+    "scripts": {
+        "dist": "vsce package"
+    },
     "contributes": {
         "languages": [
             {
                 "id": "eel",
                 "aliases": [
                     "EEL",
-                    "eel"
+                    "eel",
+                    "EEL2",
+                    "eel2",
+                    "jsfx",
+                    "JSFX"
                 ],
                 "extensions": [
                     ".jsfx",
@@ -41,5 +53,8 @@
                 "path": "./snippets/snippets.json"
             }
         ]
+    },
+    "devDependencies": {
+        "@vscode/vsce": "2.21.0"
     }
 }

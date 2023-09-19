@@ -8,8 +8,14 @@ The TextMate grammar is adapted from GavinRay97's extension: https://github.com/
 
 ## Installation
 
--   Create extension output dir with `./dish.sh`
--   Copy `dist/<EXTENSION_NAME>` dir into `<USER_DIR>/.vscode/extensions`
+Install an artefact:
+
+-   Load `.vsix` file from [Releases](https://github.com/steeelydan/eel2-vscode-support/releases) and install
+
+Or build from source:
+
+-   `npm run dist`
+-   Install the `.vsix` file in VSCode
 
 ## EEL2 docs
 
